@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 body {
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -61,7 +62,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content:space-between;
-    /* height: 80%; */
+    height: 30%;
 }
 .memory {
     width: 40%;
@@ -110,7 +111,7 @@ p{
         
     }
     .side {
-        flex-direction: row;
+        justify-content: space-between;
     }
     h1 {
         font-size: 1.5rem;
@@ -119,7 +120,7 @@ p{
         font-size: 0.8rem;
     }
     .memory {
-        width: 25%;
+        display: none;
     }
     .button {
         font-size: 1rem;
